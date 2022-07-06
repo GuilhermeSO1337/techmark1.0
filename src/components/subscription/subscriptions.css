@@ -1,0 +1,102 @@
+.subscription_li{
+    list-style:square;
+}
+.subscription_simple{
+    width: 30rem;
+    text-align: justify;
+    background-color:  #b1cbf843;
+    padding: 3%;
+    font-weight: 600;
+    font-size: 1.7rem;
+    border-radius: 25px;
+    box-shadow: 3px 3px #031f532f;
+}
+.subscription_week{
+    width: 30rem;
+    text-align: justify;
+    background-color:  #b1cbf85f;
+    padding: 3%;
+    font-weight: 600;
+    font-size: 1.7rem;
+    border-radius: 25px;
+    box-shadow: 3px 3px #031f532f;
+}
+.subscription_month{
+    width: 30rem;
+    text-align: justify;
+    background-color:  #b1cbf87d;
+    padding: 3%;
+    font-weight: 600;
+    font-size: 1.7rem;
+    border-radius: 25px;
+    box-shadow: 3px 3px #031f532f;
+}
+.every_subscriptions{
+    display: flex;
+    gap:4%;
+    justify-content: center;
+    width: 100%;
+    
+}
+.subscription_title{
+    text-align: center;
+}
+.subscription_div{
+    background-color: #b1cbf833; 
+    margin: 5%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+    box-shadow: 3px 3px #031f532f;
+}
+.subscription_title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #082e74;
+}
+@media screen and (max-width:635px) {
+    .every_subscriptions{
+        display: block;
+        gap: 3%;
+        justify-items: center;
+    }
+    .subscription_simple{
+        width: 20rem;
+    }
+    .subscription_week{
+        width: 20rem;
+    }
+    .subscription_month{
+        width: 20rem;
+    }
+    .subscription_div{
+        background-color: #b1cbf833; 
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+.button_subscription{
+    color: white;
+    background-color: #082e74;
+    border: none;
+    border-radius: 3px;
+}
+.button_subscription_office{
+    margin-top:50%;
+    position: relative;
+    margin-left: 3%;
+    color: white;
+    background-color: #082e74;
+    border: none;
+    border-radius: 3px;
+}
+@media screen  and (max-width:379px){
+    .button_subscription_office{
+        display: none;
+    }
+}

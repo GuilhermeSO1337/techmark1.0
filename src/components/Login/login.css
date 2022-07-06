@@ -1,0 +1,141 @@
+.login{
+    display: none;
+    background-color:white;
+    border: 2px solid;
+    border-color: #110F47;
+    width:17%;
+    height: 45%;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 3000000000;
+    position: fixed;
+    margin-left: 80%;
+    margin-top: 2%;
+    position: fixed;
+      
+  }
+  #e-mail{
+    width: 25%;
+    margin-top: 3%;
+    border: 2px solid;
+    border-color: #110F47;
+    border-radius: 10px;
+    position: relative;
+    
+  }
+  .login1{
+    background: none;
+  }
+  #senha{
+    display: flex;
+    margin-top: 2%;
+    width: 25%;
+    border: 2px solid;
+    border-color: #110F47;
+    position: relative;
+    border-radius: 10px;
+  }
+  .close{
+    border: none;
+    display: block;
+    float: right;
+    margin-right: 85%;
+    margin-top: 3%;
+    color: #110F47;
+  }
+  #login1{
+    margin-top: -7%;
+    text-align: center;
+    margin-left: 28%;
+    margin-right: -30%;
+    font-size: 100%;
+    font-weight: 700;
+    color: #110F47;
+   
+  }
+  .forget{
+    font-size: 70%;
+    margin-left: 12%;
+    font-weight: 700;
+    color: #110F47;
+    margin-bottom: 1%;
+  }
+  
+  .create{
+    margin-left: 1.4%;
+  display: flex;
+  font-size: 80%;
+  margin-top: .5%;
+  font-weight: 800;
+  color: #110F47;
+  }
+  .entrar{
+    width: 70px;
+    border-radius: 10px;
+    color: #ffff;
+    margin-left: 16%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6%;
+  }
+  .hn {
+    display: flex;
+    font-size: 70%;
+    margin-top: .2%;
+    font-weight: 800;
+    margin-left: 1.5%;
+    color: #110F47;
+    max-width: 10%;
+  }
+
+  .Login{
+    background-color: #212121;
+    display: none;
+    border: 2px solid;
+    border-color: #110F47;
+    width: 17vW;
+    height: 45vh;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 3000000000;
+    position: fixed;
+    margin-left: 78%;
+    margin-top: 1%;
+  }
+  @media screen and (max-width:1332px) {
+    #login1{
+      font-size: 1.9rem;
+    }
+    #senha{
+      font-size: 1.3rem;
+    }
+    #e-mail{
+      font-size: 1.3rem;
+    }
+    .entrar{
+      width: 10%;
+    }
+    .create{
+      font-size: 1.5rem;
+    }
+    .hn {
+      font-size: 1rem;
+    }
+  }
+  @media screen and (max-width:1324px) {
+
+    .entrar{
+      width: 10%;
+      margin-top: -6%;
+    }
+  }
+  @media screen and (max-width:1277px) {
+
+    .entrar{
+      width: 10%;
+      height: 100%;
+      margin-top: 3%;
+      font-size: 1rem;
+    }
+  }

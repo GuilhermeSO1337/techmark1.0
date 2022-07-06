@@ -1,0 +1,75 @@
+.Leitura{
+    text-align: center;
+    margin-top: 10%;
+    background-color: #0043C0;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-weight: 700;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    border-radius: 10px;
+}
+.leitura_img{
+    padding-top: 9%;
+    margin-left: 12%;
+}
+.leitura_about{
+    background: #044acb20;
+    margin-top: -2.3%;
+    padding-bottom: 7%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+}
+.leitura_sobre{
+    display: flex;
+    padding-top: 12%;
+    padding-left: 6%;
+}
+.leitura_somos{
+    font-size: 130%;
+    font-weight: 700;
+    color: #0043C0;
+    margin-bottom: 3%;
+}
+.leitura_somos01{
+    margin-top: 2%;
+    font-size: 110%;
+    text-align: justify;
+    margin-bottom: 2%;
+    margin-right: 20%;
+    font-weight: 600;
+}
+.leitura_somos02{
+margin-top: 2%;
+font-size: 110%;
+text-align: justify;
+margin-bottom: 2%;
+margin-right: 20%;
+font-weight: 600;
+}
+.cadastro{
+    color: white;
+    background: #110F47;
+    padding: 1%;
+    border-radius: 20px;
+    bottom: none;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    margin-top: 1%;
+    margin-left: 70%;
+}
+@media screen and (max-width: 835px) {
+    .sobre-nos{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 1035px) {
+    .footer{
+        display: none;
+    }
+    
+}

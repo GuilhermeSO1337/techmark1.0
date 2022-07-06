@@ -1,0 +1,93 @@
+.CommentSection{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.InsertCommentBox{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border-radius: 42px 21px 21px 42px;
+    background-color: #fff;
+    outline: #e3e3e3 solid 10px;
+    top:-30px;
+}
+.ProfilePicture{
+    background-color: #e3e3e3;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+.CommentField{
+    outline: none;
+    border: 0;
+    border-radius: 14px;
+    background-color: #fff;
+    width:450px;
+    height: 60px;
+}
+.SendComment{
+    color:var(--main-color);
+    width: 35px;
+    height: 35px;
+}
+input[type=text].CommentField{
+    font-size: 20px;
+}
+.CommentsArea{
+    align-items: center;
+    justify-content: center;
+    background-color: var(--CommentLightThemeBG);
+    height: 100%;
+    width: 100%;
+}
+.CommentsArea hr{
+    max-width:70%;
+    border: 0.5px solid #cfcfcf;
+    margin-top: 84px;
+}
+.CommentFilter{
+    max-width: 60%;
+    margin: 0 20% 0 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.CommentFilter p{
+    font-size: 24px;
+    color: #525252;
+}
+.RateFilter{
+    display: flex;
+    cursor:pointer;
+}
+.Comment{
+    margin: 60px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.Pages span{
+    cursor: pointer;
+    padding: 14px 10px;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 10px ;
+    border-radius: 8px;
+    background-color: #525252;
+}
+.Pages .SelectedIndex{
+    background-color: var(--main-color);
+    cursor:default;
+}
+.Pages .Chevrons{
+    cursor: pointer;
+}

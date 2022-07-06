@@ -1,0 +1,45 @@
+/* font import from google fonts  */
+/* Poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* Oxygen */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+
+.InputContainer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+}
+
+.SendMensagem{
+    cursor: pointer;
+    margin-left:20px;
+    background-color: var(--main-color);
+    width: 47px;
+    height: 47px;
+    color:#fff;
+    border: none;
+    outline: #fff solid 5px;
+    border-radius: 40px;
+}
+
+form .FollowButton{
+    cursor:pointer;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 1.7rem;
+    border: none;
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 66px;
+    outline: #fff solid 5px;
+    width: 163px;
+    height: 47px;
+}
+
+@media (max-width:800px) {
+    .SendMensagem{
+        display: none;
+    }
+}

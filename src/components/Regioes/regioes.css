@@ -1,0 +1,105 @@
+.card-body_regioes{
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    background: #0043C0;
+    color: white;
+    justify-items: center;
+    padding-left: 37%;
+}
+
+.card-img-top_regioes{
+    height: 25vh;
+    border-radius: 20px 20px 0px 0px;
+}
+.card-body_regioes{
+    border-radius: 0px 0px 20px 20px;
+}
+.regioes{
+    color: white;
+}
+.regioes :hover{
+color: white;
+}
+.Leitura_regioes{
+    text-align: center;
+    margin-top: 10%;
+    background-color: #0043C0;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-weight: 700;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    color: white;
+    border-radius: 10px;
+    font-size: 130%;
+}
+.carrossel_regioes{
+    background: #044acb20;
+    margin-top: -5%;
+    padding-top: 6%;
+}
+.card-body_regioes1{
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-right: 0;
+    padding-left: 0;
+    background: #0f2959;
+    color: white;
+    justify-items: center;
+    padding-left: 37%;
+    border-radius: 0px 0px 20px 20px;
+}
+.card-body_regioes2{
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-right: 0;
+    padding-left: 0;
+    background: #178CCE;
+    color: white;
+    justify-items: center;
+    padding-left: 37%;
+    border-radius: 0px 0px 20px 20px;
+}
+.card-body_regioes3{
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-right: 0;
+    padding-left: 0;
+    background:#142F62  ;
+    color: white;
+    justify-items: center;
+    padding-left: 37%;
+    border-radius: 0px 0px 20px 20px;
+}
+.card-body_regioes4{
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-right: 0;
+    padding-left: 0;
+    background: #315391;;
+    color: white;
+    justify-items: center;
+    padding-left: 37%;
+    border-radius: 0px 0px 20px 20px;
+
+}
+.card_regioes{
+    min-height: 40vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}

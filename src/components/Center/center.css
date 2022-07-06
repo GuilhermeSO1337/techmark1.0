@@ -1,0 +1,37 @@
+.center{
+margin-left: 15%;
+margin-top: -67%;
+position: absolute;
+width: 70%;
+height: 100%;
+}
+.container{
+    width: 50%;
+    border-radius: 6px;
+}
+.imagem-comercio{
+    border-radius:90%;
+    height: 60px;
+    border: solid 2px;
+    border-color: #110F47;
+}
+
+.public_name{
+    display: flex;
+    margin-bottom: -5%;
+  
+}
+.comercios_name{
+    margin-top: 6%;
+    margin-left: 5%;
+    font-size: 90%;
+    font-weight: 800;
+}
+.public{
+    padding: 0;
+    margin: 10%;
+}
+.public_h3{
+    font-size: 100%;
+    font-weight: 600;
+}

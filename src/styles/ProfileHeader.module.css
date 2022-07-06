@@ -1,0 +1,82 @@
+.Cover{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    overflow: hidden;
+}
+.Banner{
+        background: linear-gradient(rgba(0,0,0,0.47),rgba(0,0,0,0.47)), url(/src/img/Cover_image.jpg) no-repeat;
+        background-size: cover; 
+        width: 100%;
+        height: 250%;
+        position: relative;
+}
+/*Banner icons start*/
+.BannerIcons{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60px;
+    top: 32%;
+    bottom:55%;
+    color: #fff;
+}
+.BannerIcons .WhatsappIcon{
+    margin-bottom: 14px;
+    width: 30px;
+    height: 30px;
+}
+.BannerIcons .WhatsappIcon:hover{
+    color: #25D366;
+}
+.BannerIcons .InstagramIcon{
+    margin-bottom: 14px;
+    width: 30px;
+    height: 30px;
+}
+.BannerIcons .InstagramIcon:hover{
+color: #C13584 ;
+}
+.BannerIcons .FacebookIcon{
+    margin-bottom: 14px;
+    width: 30px;
+    height: 30px;
+}
+.BannerIcons .FacebookIcon:hover{
+    color: #4267B2;
+}
+/*Banner icons ends*/
+/*Profile*/
+.ProfileItens{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+.Profile{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: -40px;
+    align-items:center;
+    justify-content: center;
+    z-index: 1;
+}
+.Profile .ProfileInputs{
+    position: absolute;
+    left: 70%;
+    bottom: 60px;
+}
+
+@media (max-width:800px){
+    .Profile .ProfileInputs{
+        position: static;
+    }
+    .Profile{
+        flex-direction: column-reverse;
+    }
+}

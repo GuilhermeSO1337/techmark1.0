@@ -1,0 +1,142 @@
+.GallerySection{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.GalleryContent{
+    display: flex;
+    align-items: center;
+    margin: 0 9%;
+    width: 100%;
+    height: 100%;
+}
+
+.Tittle{
+    position: absolute;
+    z-index:1;
+    top:-30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    width: 191px;
+    height: 57px;
+    background-color:var(--Section-tittle);
+    font-family: 'poppins';
+    font-weight: bold;
+    color: #fff;
+    outline: #fff solid 6px;
+}
+
+.GalleryPictures{
+    width: 100%;
+    height: 100%;
+}
+
+.MainPicture{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainPictureContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    height: 65%;
+}
+
+.MainPicture h3{
+    font-family: 'poppins';
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.MainPicture p{
+
+    font-weight: 500;
+    font-family: 'poppins'; 
+}
+
+.MainPicture img{
+    height: 90%;
+}
+
+.PicturesCollection{
+    display: flex;  
+    position: relative;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 280px;
+}
+
+.PicturesCollectionImages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PicturesCollection .Inputs{
+    color: var(--main-color);
+    position: absolute;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.PicturesCollection img{
+    margin: 10px 0;
+    max-width: 80%;
+}
+
+@media (max-width:1538px){
+    .GalleryContent{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 80%;
+    }
+
+    .MainPictureContent{
+        height: 60%;
+        width: 100vw;
+    }
+
+    .MainPictureContent img{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .PicturesCollection, .PicturesCollectionImages{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .PicturesCollection{
+        position: absolute;
+        top: 35%;
+    }
+
+    .PicturesCollectionImages img{
+        width: 15%;
+        margin-right: 10px;
+    }
+
+
+    .Chevron{
+        display: none;
+    }
+}

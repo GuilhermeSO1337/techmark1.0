@@ -1,0 +1,154 @@
+
+.container{
+    background-color: aqua;
+    display: flex;
+    height: 100vh;
+}
+
+.content{
+   max-width: 860px;
+   width: 100%;
+   background-color:#fff;
+}
+
+.banner{
+    background: rgb(0,67,192);
+    background: linear-gradient(90deg, rgba(0,67,192,1) 0%, rgba(17,15,71,1) 100%);
+    color: #fff;
+    font-weight:200;
+    padding: 30px 30px;
+}
+
+.banner .title{
+    font-weight: 300;
+}
+
+.banner label{
+    
+    display: block;
+    margin: 15px 0px;
+    
+}
+
+.banner div button{
+    background-color: #110F47;
+    color: #fff;
+    padding: 7px 15px;
+    margin-right: 15px;
+    border-radius: 30px;
+
+
+}
+
+.banner label input {
+    width: 100%;
+    max-width: 600px;
+    height: 45px;
+    border-radius:35px ;
+    padding-left: 15px;
+}
+
+.container_map{
+background-color: #eee;
+flex: 1;
+}
+
+.card{
+    display: flex;
+    /* background-color: aquamarine; */
+    margin: 0 20px;
+    margin-bottom: 20px;
+
+}
+
+.box_image{
+   max-width: 280px; 
+   
+}
+
+.box_image img{
+    width: 100%;
+    border-radius: 15px;
+    
+
+}
+
+.box_info{
+    /* background-color: crimson; */
+    flex: 1;
+    padding: 0 15px ;
+    
+}
+
+.box_info .category{
+   margin-bottom: 12px; 
+}
+
+.box_info .title{
+    margin-bottom: 12px;
+}
+
+.box_stars{
+    margin-bottom: 10px;
+    
+}
+
+.box_stars img{
+    margin-right:6px;
+}
+
+.street{
+    margin-bottom: 0.5px;
+    font-weight: 500;
+}
+
+.street_number{
+    font-weight: 500;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.category{
+    font-weight: 500;
+    color: #110F47;
+}
+
+.content_commerce > h2{
+    font-size: 15px;
+    margin: 13px 20px;
+    
+}
+
+.content_commerce{
+/* background-color: ; */
+max-height: 502px;
+overflow-y: scroll;
+}
+
+.content_commerce::-webkit-scrollbar {
+    width: 10px;
+
+  }
+  
+  /* Track */
+  .content_commerce::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .content_commerce::-webkit-scrollbar-thumb {
+    background: #110F47; 
+    border-radius: 10px;
+  }
+
+  .container_map > div{
+   width: 100%;
+   width: 200px;
+   height: 40px;
+  }
+  
+  /* Handle on hover */
+  

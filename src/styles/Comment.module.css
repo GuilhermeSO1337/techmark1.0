@@ -1,0 +1,44 @@
+.Comment{
+    position: relative;
+    background-color: #fff;
+    border-radius: 0 15px 15px 15px;
+    width: 60%;
+    margin-bottom: 40px;
+}
+.Comment img{
+    position: absolute;
+    top:0px;
+    left:-40px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 9px solid #e3e3e3
+}
+.Comment h2{
+    margin: 16px 0 0 100px;
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight:600;
+}
+.Comment .CommentText{
+    font-family: 'poppins';
+    margin: 20px 10% 50px 100px;
+}
+.Time{
+    color: #8a8a8a;
+    margin: 0 20px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.NameAndStars{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.Stars{
+    top: 10px;
+    right: 15px;
+    position: absolute;
+}

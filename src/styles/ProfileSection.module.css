@@ -1,0 +1,73 @@
+/* font import from google fonts  */
+/* Poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* Oxygen */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.ProfileInformation{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.ProfilePictureBorder{
+    left: 50%;
+    right: 50%;
+    width: 165px;
+    height: 165px;
+    background:linear-gradient(75deg, #25CFFE,#FF1CDB);
+    outline: #fff solid 8px;
+    border-radius: 50%;
+}
+.ProfilePicture{
+    width: 100%;
+    height: 100%;
+}
+.ProfilePicture img{
+    position: relative;
+    left:5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+.ProfileInformation h2{
+    font-family: 'poppins';
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.ProfileInformation p{
+    font-size: 2.4rem;
+    font-family: 'Oxygen';
+    color: #8f8f8f;
+    font-weight: normal;
+}
+.ProfileInformation .Emphasis{
+    position: relative;
+    left:65%;
+    bottom: 30%;
+    width: 52px;
+    height: 69px;
+}
+
+@media(max-width:828px){
+    .ProfileInformation h2{
+        font-size: 2.90rem;
+    }
+    .ProfilePictureBorder{
+        width: 150px;
+        height: 150px;
+    }
+    .ProfileInformation .Emphasis{
+        width: 48px;
+        height: 65px;
+    }
+}

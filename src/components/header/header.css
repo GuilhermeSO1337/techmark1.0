@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap');
+.header{
+    padding-left: 6%;
+    padding-top: 90px;
+    color: white ;
+ background-color: #0043C0; 
+ padding-bottom: 5.9%;
+ height: 400px;
+}
+h1{
+    font-size: 180%;
+    font-weight: 800;
+}
+
+h2{
+    padding-right: 60%;
+    font-weight: 500;
+    font-size: 150%;
+    margin-bottom: -5%;
+}
+ .headersearch {
+    background-color:white;
+    padding: 4px;
+    width: 60vw;
+    border-radius: 25px;
+    height: 9vh;
+    position: relative;
+    top: 100px;
+  }
+  
+  .headersearch > input {
+    margin-left:1%;
+    border: none;
+    width: 93%;
+    height: 100%;
+    background-color: white;
+    border-color: white;
+    color: black;
+    box-shadow: none;
+    outline: 0;
+    font-size: 90%;
+    border-radius: 30px;
+  }
+  
+  .headersearch > button {
+    background: #110F47;
+    border: none;
+    width: 7vh;
+    height: 7vh;
+    border-radius: 90px;
+  }
+  .img{
+      width: 25%;
+      margin-left: 60em;
+      top: 0;
+      position: absolute;
+    } 
+
+  @media screen and (max-width: 1120px) {
+    form{
+      margin-top: 10%;
+        font-size: 0%;
+        margin-bottom: 5%;
+    }
+    form > input {
+        width: 90%;
+    }
+
+  .img{
+    width: 0%;
+  }}
+  @media screen and (max-width: 1277px) {
+    form{
+      margin-top: 7%;
+        font-size: 0%;
+        margin-bottom: 5%;
+        border-radius: 40px;
+        height: 15%;
+    }
+    form > input {
+        width: 81%;
+        border-radius: 20px;
+    }
+
+  .img{
+    width: 0%;
+  }}
+  @media screen and (max-width: 753px) {
+    form{
+
+        font-size: 0%;
+        margin-bottom: 5%;
+    }
+    form > input {
+        width: 85%;
+    }
+
+  .img{
+    width: 0%;
+  }}
+  @media screen and (max-width: 489px) {
+    form{
+
+        font-size: 0%;
+        margin-bottom: 5%;
+    }
+    form > input {
+        width: 80%;
+    }
+  .img{
+    width: 0%;
+  }  @media screen and (max-width: 753px) {
+    form{
+      margin-top: 10%;
+        font-size: 0%;
+        margin-bottom: 5%;
+    }
+    form > input {
+        width: 70%;
+    }
+  .img{
+    width: 0%;
+  }}
+}
+  @media screen and (max-width:375px) {
+    h2{
+    padding-right: 40%;
+    font-weight: 500;
+    font-size: 100%;
+    margin-bottom: -5%;
+}
+form{
+  height: 15%;
+}
+form{
+  width: 50%;
+}
+ form> input{
+  width: 70%;}
+  }
+
+      
+        
+  @media screen and (max-width: 800px) {
+form{
+  width: 50%;
+}
+ form> input{
+  width: 70%;}
+  }

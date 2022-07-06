@@ -1,0 +1,92 @@
+header{
+    height: 40px;
+    margin-top: 43px;
+    margin-bottom: 140px;
+}
+.TopSection{
+    margin-left: 43px;
+    margin-right: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a .Logo{
+    width: 185.47px;
+    height: 40px;
+}
+/* seção de icones */
+.Icons{
+    float: right;
+}
+.DarkMode{
+    height: 40px;
+    width: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.Accessibility{
+    height: 40px;
+    width: 40px;
+    margin-right: 46px;
+    cursor: pointer;
+}
+.UserProfile{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+    /*Icones Mobile*/
+    .Mobile{
+        display: none;
+    }
+    .MobileSearchIcon{
+        height: 30px;
+        width: 30px;
+        margin-right: 3rem;
+    }
+    .MenuIcon{
+        padding: 8px;
+        background-color: var(--main-color);
+        border-radius: 5px;
+        color: #fff;
+        height: 30px;
+        width: 30px;
+    }
+    .MenuDisplay{
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 20rem;
+        height: 100vh;
+        background-color: #EEE;
+        box-shadow:var(--shadow-color);
+        transform: translateX(0vh);
+    }
+    /* Fim Icones mobile  */
+/* Fim seção de icones */
+.Hr{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    border: 2px solid var(--shadow-color);
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+/*Barra de pesquisa*/
+.SearchBar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+/*Fim Barra de pesquisa*/
+@media(max-width:768px){
+    .Icons  .Accessibility, .DarkMode, .UserProfile{
+        display:none;
+    }
+    .Mobile{
+        display: flex;
+        align-items: center;
+    }
+    .SearchBar{
+        position: relative;
+        top: -200px;
+    }
+}

@@ -1,0 +1,257 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap');
+.navbrand{
+    padding-left: 4%;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: flex-start;
+    padding-top: 1%;
+    position: fixed;
+    background: white;
+    background-position: top;
+
+}
+#img{
+  width: 80%;
+  margin-left: -40%;
+}
+.botoes{
+    padding-left: 19%;
+    justify-content: space-around;
+    display: flex;
+    border: none;
+    display: block;
+
+
+}
+
+.modo{ border: none;   
+  box-shadow: none;
+   outline: none;
+   background-color: white;
+   border-color: white;
+   color: white;
+   border-radius: 3px;}
+
+.usuario{  border: none;   
+   box-shadow: none;
+    outline: none;
+    background-color: white;
+    border-color: white;
+    color: white;
+    margin-left: 1rem;
+    border-radius: 3px;
+    padding-top: 1px;}
+
+
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav_link :hover{
+  color: #110F47;
+}
+.nav_link1 :hover{
+  color: #110F47;
+}
+.nav_link2 :hover{
+  color: #110F47;
+}
+.nav_link3 :hover{
+  color: #110F47;
+}
+nav{
+  margin-left: 4%;
+  position: fixed;
+  display: flex;
+  top: 0;
+}
+
+.nav {
+  padding-left: 5%;
+  width: 100vw;
+  align-items: center;
+  margin: 0;
+  justify-content: space-around;
+  height: 8vh;
+  background: white;
+  position: fixed;
+}
+.nav__brand {
+  color: white;
+}
+
+.nav__menu {
+  padding-left: 5%;
+  margin-top: 0.6%;
+    font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+
+
+}
+
+ #usuario{
+   margin-top: 2%;
+   width: 28px;
+ } 
+
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background:#110F47;
+  color: white;
+  transition: 0.3s ease-in;
+  margin-right: 2%;
+  padding-right: 2%;
+
+}
+.svg{
+  border:none ;
+  outline: none;
+  background: none;
+  box-shadow: none;
+  display: flex;
+  margin-top: 2%;
+  border-radius: 35px;
+}
+@media screen and (max-width: 1144px) {
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+    margin-right:4% ;
+  }
+  .nav__menu {  
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    background: white;
+    height: 70vh;
+    width: 40vw;
+    flex-direction:column;
+    transform: translateX(100%);
+    transition: 0.1s ease-in;
+    border: 2px solid #110F47;
+
+  }
+  .usuario{
+    padding-left: 0;
+    margin: 0;
+    padding-right: 0;
+
+  }
+}
+/* Active Class */
+.nav__active {
+  transform: translateX(0%);
+}
+
+@media screen and (max-width: 768px) {
+  .navbrand{
+    margin-left: 4%;
+  }
+  #img{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 509px){
+  .botoes{
+    padding-left: 0%;
+    margin-right: 7%;
+  }
+  #img{
+    width: 70%;
+  }
+  #usuario{
+    width:20px;
+  }
+  #modo{
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav_brand{
+    margin-left: 14%;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 490px) {
+  .nav_brand{
+    margin-left: 14%;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .nav_brand{
+    margin-left: 14%;
+    width: 40%;
+  }
+}
+nav{
+  z-index: 50000;
+}
+
+.nav2{
+  z-index: 50000;
+  padding-left: 5%;
+  width: 100vw;
+  align-items: center;
+  margin: 0;
+  justify-content: space-around;
+  height: 8vh;
+  background: white;
+  position: fixed;
+  margin-left: 4%;
+  position: fixed;
+}
+#img2{
+  width: 80%;
+  margin-left: -40%;
+  display: none;
+}
+#usuario2{
+  display: none;
+  margin-top: 2%;
+  width: 28px;
+}
+#modo2{
+  display: none;
+  margin-top: 2%;
+  width: 28px;
+}
+.estrela{
+  color: yellow;
+}
+.card-title-oficce1{
+  color: white;
+
+}
+#usuario3{
+  margin-top: 2%;
+display: none;
+} 

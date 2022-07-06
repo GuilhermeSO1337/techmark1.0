@@ -1,0 +1,51 @@
+.agenda_favoritos{
+    margin-top: 8%;
+    margin-right: 70%;
+    background-color: rgba(225, 224, 224, 0.519);
+    height: 100;
+}
+.agenda_completa{
+    position: relative;
+}
+.favoritos_usuario{
+    margin-top: -30.5%;
+    padding-top: 40%;
+
+}
+.favoritos_title{
+    padding-top: 4%;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+    margin-bottom: 4%;
+}
+.comercios_grid{
+    display: flex;
+    margin-left: 5%;
+    gap: 1%;
+    margin-bottom: 4%;
+    align-items: center;
+}
+.comercio_name{
+    font-size: 75%;
+    font-weight: 800;
+}
+.img_comercio{
+    border-radius: 5px;
+}
+.agenda_title{
+    margin-top: -26.5%;
+    padding-top: 30%;
+    margin-bottom: 3%;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+}
+.agenda{
+    width:50%;
+    margin-left: 4%;
+}
+.agenda{
+    width: 90%;
+    height: 30%;
+}

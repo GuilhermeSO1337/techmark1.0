@@ -1,0 +1,39 @@
+.perfil{
+padding-top: 3%;
+padding-bottom: 0%;
+padding-left: 5%;
+background-image: radial-gradient( #0043C0,#110F47);
+position: static;
+}
+.usuario_perfil{
+    display: flex;
+}
+.foto_usuario{
+    margin-bottom: -8%;
+    border: solid 4px;
+    border-color: white;
+    border-radius: 90px;
+    box-shadow: 2% rgba(0, 0, 0, 0.605);
+    z-index: 3000;
+}
+.usuario_nome{
+    margin-top: 6%;
+    margin-left: 2%;
+    padding: 0;
+    font-weight: 800;
+    color: #fff;
+}
+.Config_usuarios{
+    background-color: #0f0c7124;
+    box-shadow: inset;
+    margin-left: -6%;
+    text-align: right;
+    padding-right: 2%;
+    font-weight: 800;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.config_usuario{
+    color: #545151;
+    margin-bottom: 10%;
+}

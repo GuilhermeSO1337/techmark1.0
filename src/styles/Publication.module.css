@@ -1,0 +1,52 @@
+/*Publication Box*/
+.Publication{
+    border-radius:16px;
+    max-width: 60%;
+    background-color: #fff;
+    position: relative;
+    max-height: 100%;
+    min-width: 50%;
+    margin-top: 60px;
+    box-shadow:rgba(0, 0, 0, 0.1) 0 4px 14px;
+}
+/*Publication Box profile picuture*/
+.ProfilePicture{
+    position: absolute;
+    top:-40px;
+    left: 20px;
+    outline: var(--Publication-WhiteBG-theme) solid 5px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+/*Publication content*/
+.Content{
+    max-width: 100%;
+    min-height: 100px;
+    min-width: 50%;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Content h2{
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'poppins';
+}
+.Content p{
+    line-height: 30px;
+    font-size: 1.5rem;
+    max-height: 10px;
+    font-weight: normal;
+    font-family: 'poppins';
+    margin-bottom: 20px;
+}
+.Content img{
+    min-height: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 50%;
+    min-width: 50%;
+}

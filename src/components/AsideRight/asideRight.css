@@ -1,0 +1,13 @@
+.anuncios{
+    margin-left: 70%;
+    margin-top: -71.6%;
+    background-color: rgba(225, 224, 224, 0.519);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.anuncio_img{
+    align-items: center;
+    justify-content: center;
+    
+}

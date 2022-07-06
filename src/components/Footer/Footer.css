@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&family=Ropa+Sans:ital@0;1&family=Rosarivo:ital@0;1&family=Ubuntu:wght@300;400;500;700&display=swap');
+.footer{
+    background: #0B0808;
+    position: static;
+    z-index: 250000;
+}
+.footerRow{
+    display: flex;
+    margin-top: 2%;
+    gap: 20%;
+    margin-left: 6%;
+    color: white;
+}
+.logo{
+    padding-top: 2%;
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+
+.feedback {
+    background-color:white;
+    padding: 4px;
+    width: 60vw;
+    border-radius: 25px;
+    height: 9vh;
+    position: relative;
+    margin-left: 6%;
+    margin-top: 1%;
+  }
+  
+  .feedback input {
+    margin-left:1%;
+    border: none;
+    width: 93%;
+    height: 100%;
+    background-color: white;
+    border-color: white;
+    color: black;
+    box-shadow: none;
+    outline: 0;
+    font-size: 90%;
+    border-radius: 30px;
+  }
+  
+  .feedback button {
+    background: #110F47;
+    border: none;
+    width: 7vh;
+    height: 7vh;
+    border-radius: 90px;
+  }
+
+.Estrela{
+    display: flex;
+    width: 30%;
+}
+a:hover{
+    color: #0043C0
+}
+.setafeed{
+    margin-left: 5%;
+}
+.icon{
+    color: white;
+    gap: 1%;
+}
+.contatos{
+    margin-left: -18%;
+}
+.menu2{
+    color: white; 
+    margin-left: -18%;
+}
+.parcerias{
+    color: white;
+    margin-left: -18%;
+}
+.regioes{
+    color: white;
+    margin-left: -18%;
+}
